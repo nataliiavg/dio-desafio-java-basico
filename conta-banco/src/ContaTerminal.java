@@ -9,7 +9,7 @@ public class ContaTerminal {
         
         Scanner leitura = new Scanner(System.in);
 
-        System.out.println("Por favor, digite o número da conta: ");
+        System.out.println("\nPor favor, digite o número da conta: ");
         numeroConta = Integer.parseInt(leitura.nextLine());
 
         System.out.println("Informe o número da agência: ");
@@ -23,7 +23,7 @@ public class ContaTerminal {
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo de " + saldo + " já está disponível para saque.");
     
-
+        leitura.close();
 
     }
 }
